@@ -1,0 +1,9 @@
+[package]
+org = "dileepagayan"
+name = "travelpackageaiagent"
+version = "0.1.0"
+distribution = "2201.13.2"
+title = "travelpackageaiagent"
+
+[build-options]
+sticky = true
