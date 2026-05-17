@@ -31,7 +31,7 @@ function findTravelPlaces(string destination, string[] interests) returns findTr
         categories = categories,
         filter = circleFilter,
         'limit = "10",
-        apiKey = GEOAPIFY_API_KEY
+        apiKey = "f7249db20edb4983b7cd9fa05b6a05c0"
     );
 
     // Step 4: Transform response to match expected format

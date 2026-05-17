@@ -1,2 +1,2 @@
-configurable string GEOAPIFY_API_KEY = ?;
+//configurable string GEOAPIFY_API_KEY = ?;
 
