@@ -1,2 +1,2 @@
 [workspace]
-packages = ["travelpackageaiagent", "travelpackagemcpserver"]
+packages = ["travelpackageaiagent", "travelpackagemcpserver", "test"]
