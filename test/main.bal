@@ -18,6 +18,7 @@ service mcp:Service /mcp on mcpListener {
     #
     # + keyword - A word or phrase to match against product name or category
     # + return - A list of matching products
+    @mcp:Tool
     remote function searchProducts(string keyword) returns Product[] {
         return from Product p in catalog
             where p.name.toLowerAscii().includes(keyword.toLowerAscii())
